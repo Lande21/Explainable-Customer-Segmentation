@@ -40,14 +40,15 @@ The project follows a four-stage pipeline to transform raw data into actionable,
 
 The SHAP analysis revealed that after purchase frequency (`Total_Purchases`), **customer sentiment (`Positive_Prob`) is the second most important driver of customer spending**. High positive sentiment consistently increases the predicted monetary value of a customer, providing a direct, data-driven link between customer satisfaction and revenue. `Age` was found to have a negligible impact.
 
-![SHAP Summary Plot](results/shap_customer_value_drivers.png)
+![SHAP Summary Plot](results/SHAPresult.png)
 
 #### 2. Geographic Hotspots of Customer Satisfaction
 
 The spatial analysis showed that customer sentiment is not uniform across the country. States like **Delaware and Utah** emerged as "hotspots" with high average sentiment, suggesting that regional factors may be influencing customer experience and providing an opportunity for targeted marketing or logistical improvements.
 
-![State Sentiment Map](results/state_sentiment_map.png)
+![State Sentiment Map](results/State-sentiment-map.png)
 
+![State Sentiment Map](results/UMAP_HDBSCAN_Tuned_with_1000_samples.png')
 ---
 
 ### ► How to Run This Project
