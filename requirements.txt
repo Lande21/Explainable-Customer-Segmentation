@@ -1,0 +1,16 @@
+pandas
+numpy
+torch
+transformers
+huggingface-hub
+umap-learn
+hdbscan
+shap
+scikit-learn
+matplotlib
+seaborn
+plotly
+geopandas
+catboost
+joblib
+textblob
